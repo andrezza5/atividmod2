@@ -1,0 +1,33 @@
+algoritmo "Tipohabilitacao"
+
+var
+
+  rodas, peso, quantpessoas: real
+  habilitacaoA, habilitacaoB, habilitacaoC, habilitacaoD, habilitacaoE: caracter
+
+inicio
+
+    escreva ("quantidaderodas")
+    leia (rodas)
+    escreva ("quantidade maxima de pessoas no veiculo")
+    leia (quantpessoas)
+    escreva ("peso do veiculo")
+    leia (peso)
+    
+    se rodas >=3 entao
+    escreva ("habilitacaoA")
+    se rodas =4 entao
+    quantpessoas <=8 entao
+    escreva ("habilitacaoB")
+    se rodas >= 4 entao
+    peso >=3500 entao
+    escreva ("habilitacaoC")
+    se rodas >=4 entao
+    quantpessoas >=8 entao
+    escreva ("hanilitacaoD")
+    se rodas >=4 entao
+    peso >=6000 entao
+    escreva ("habilitacaoE")
+
+    fimse
+    FIMALGORITMO
